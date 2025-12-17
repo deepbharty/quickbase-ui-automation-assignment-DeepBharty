@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-18T00:25:53 IST" name="Automation Test Suite" finished-at="2025-12-18T00:26:39 IST" duration-ms="46391">
+    <groups>
+      <group name="regression">
+        <method signature="TableFormTest.verifyTableHeaderText()[pri:0, instance:test.TableFormTest@1e800aaa]" name="verifyTableHeaderText" class="test.TableFormTest"/>
+        <method signature="TableFormTest.verifyTableValidationText()[pri:1, instance:test.TableFormTest@1e800aaa]" name="verifyTableValidationText" class="test.TableFormTest"/>
+        <method signature="TableFormTest.verifyThatButtonIsEnabledOrNot()[pri:2, instance:test.TableFormTest@1e800aaa]" name="verifyThatButtonIsEnabledOrNot" class="test.TableFormTest"/>
+        <method signature="TableFormTest.addTableNameInfo()[pri:3, instance:test.TableFormTest@1e800aaa]" name="addTableNameInfo" class="test.TableFormTest"/>
+        <method signature="TableFormTest.addTableTagInfo()[pri:4, instance:test.TableFormTest@1e800aaa]" name="addTableTagInfo" class="test.TableFormTest"/>
+        <method signature="TableFormTest.addDescriptionInfo()[pri:5, instance:test.TableFormTest@1e800aaa]" name="addDescriptionInfo" class="test.TableFormTest"/>
+        <method signature="TableFormTest.clickOnCreateTableButton()[pri:6, instance:test.TableFormTest@1e800aaa]" name="clickOnCreateTableButton" class="test.TableFormTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TableFormTest.addTableNameInfo()[pri:3, instance:test.TableFormTest@1e800aaa]" name="addTableNameInfo" class="test.TableFormTest"/>
+        <method signature="TableFormTest.addTableTagInfo()[pri:4, instance:test.TableFormTest@1e800aaa]" name="addTableTagInfo" class="test.TableFormTest"/>
+        <method signature="TableFormTest.addDescriptionInfo()[pri:5, instance:test.TableFormTest@1e800aaa]" name="addDescriptionInfo" class="test.TableFormTest"/>
+        <method signature="TableFormTest.clickOnCreateTableButton()[pri:6, instance:test.TableFormTest@1e800aaa]" name="clickOnCreateTableButton" class="test.TableFormTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-12-18T00:25:53 IST" name="LoginTests" finished-at="2025-12-18T00:26:39 IST" duration-ms="46391">
+      <class name="test.TableFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:25:53 IST" name="setup" finished-at="2025-12-18T00:25:58 IST" duration-ms="4921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tableFormSetUp()[pri:0, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:25:58 IST" name="tableFormSetUp" finished-at="2025-12-18T00:26:38 IST" duration-ms="40333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableFormSetUp -->
+        <test-method signature="verifyTableHeaderText()[pri:0, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:38 IST" name="verifyTableHeaderText" finished-at="2025-12-18T00:26:38 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableHeaderText -->
+        <test-method signature="verifyTableValidationText()[pri:1, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:38 IST" name="verifyTableValidationText" finished-at="2025-12-18T00:26:38 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableValidationText -->
+        <test-method signature="verifyThatButtonIsEnabledOrNot()[pri:2, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:38 IST" name="verifyThatButtonIsEnabledOrNot" finished-at="2025-12-18T00:26:38 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatButtonIsEnabledOrNot -->
+        <test-method signature="addTableNameInfo()[pri:3, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:38 IST" name="addTableNameInfo" finished-at="2025-12-18T00:26:39 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTableNameInfo -->
+        <test-method signature="addTableTagInfo()[pri:4, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:39 IST" name="addTableTagInfo" finished-at="2025-12-18T00:26:39 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTableTagInfo -->
+        <test-method signature="addDescriptionInfo()[pri:5, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:39 IST" name="addDescriptionInfo" finished-at="2025-12-18T00:26:39 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDescriptionInfo -->
+        <test-method signature="clickOnCreateTableButton()[pri:6, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:39 IST" name="clickOnCreateTableButton" finished-at="2025-12-18T00:26:39 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateTableButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TableFormTest@1e800aaa]" started-at="2025-12-18T00:26:39 IST" name="tearDown" finished-at="2025-12-18T00:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TableFormTest -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>
